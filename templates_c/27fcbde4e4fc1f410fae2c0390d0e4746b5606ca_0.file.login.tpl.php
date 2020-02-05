@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-02-05 04:56:21
+/* Smarty version 3.1.34-dev-7, created on 2020-02-05 08:02:53
   from 'D:\teacherguo\ugm\xampp\htdocs\web11\templates\tpl\login.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5e3a3ce543c738_45155192',
+  'unifunc' => 'content_5e3a689d923ae5_94709244',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '27fcbde4e4fc1f410fae2c0390d0e4746b5606ca' => 
     array (
       0 => 'D:\\teacherguo\\ugm\\xampp\\htdocs\\web11\\templates\\tpl\\login.tpl',
-      1 => 1580874837,
+      1 => 1580885977,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,28 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5e3a3ce543c738_45155192 (Smarty_Internal_Template $_smarty_tpl) {
-?>
+function content_5e3a689d923ae5_94709244 (Smarty_Internal_Template $_smarty_tpl) {
+?><link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['xoImgUrl']->value;?>
+bootstrap/bootstrap.min.css">
+
+<title>會員管理</title>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['xoImgUrl']->value;?>
+bootstrap/jquery-3.4.1.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['xoImgUrl']->value;?>
+bootstrap/popper.min.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['xoImgUrl']->value;?>
+bootstrap/bootstrap.min.js"><?php echo '</script'; ?>
+>
+</head>
+<body>
+
 <style>
     .form-signin {
         width: 100%;

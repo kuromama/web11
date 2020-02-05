@@ -1,3 +1,13 @@
+<link rel="stylesheet" href="<{$xoImgUrl}>bootstrap/bootstrap.min.css">
+
+<title>會員管理</title>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="<{$xoImgUrl}>bootstrap/jquery-3.4.1.min.js"></script>
+<script src="<{$xoImgUrl}>bootstrap/popper.min.js"></script>
+<script src="<{$xoImgUrl}>bootstrap/bootstrap.min.js"></script>
+</head>
+<body>
 
 <style>
     .form-signin {

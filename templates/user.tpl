@@ -21,8 +21,6 @@
        <{include file="tpl/admin.tpl"}> 
     <{else}>
        <{include file="tpl/login.tpl"}> 
-
-
     <{/if}>
 
   </body>
